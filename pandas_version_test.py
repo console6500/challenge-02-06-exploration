@@ -1,5 +1,5 @@
 import unittest
-
+import pandas as pd
 
 class Test(unittest.TestCase):
     def test_pandas_version():
