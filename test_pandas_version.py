@@ -1,4 +1,4 @@
 import pandas as pd
 
-def test_answer():
-    assert pd.__version__ >= 1.5
+def test_pandas_version():
+    assert pd.__version__ in ["1.5.3"]
