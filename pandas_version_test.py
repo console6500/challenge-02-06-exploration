@@ -1,4 +1,5 @@
-import pandas as pd
+import unittest
 
-def pandas_version_test():
-    assert pd.__version__ in ["1.5.3"]
+class Test(unittest.TestCase):
+    def test_pandas_version():
+        assert pd.__version__ in ["1.5.3"]
